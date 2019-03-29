@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="block">
+            <h class="aom">Aesthetics of music</h><br>
+            <h class="aom">Welcome to&nbsp;music shop, where You can buy music of&nbsp;any genres and on&nbsp;any media.</h><br>
+        </div>
+        <div class="header"><br>
+            <div class="logo"><a href="index.html"><img src="/static/img/logo.png" alt="Go to main" title="Go to main" width="50px"></a>
+            </div>
+            <div class="menum">
+                <a href="{% url 'index' %}">main</a>&emsp;
+                <a href="{% url 'products' %}">catalogue</a>&emsp;
+                <a href="{% url 'contacts' %}">contacts</a>
+            </div>
+        </div>
+        <h class="aom">Main</h><br>
+        <div class="footer">
+            All rights reserved 2019&nbsp;&copy;
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="block">
+        <h class="aom">Aesthetics of&nbsp;music</h><br>
+        <h class="aom">Welcome to&nbsp;music shop, where You can buy music of&nbsp;any genres and on&nbsp;any media.</h><br>
+        </div>
+        <div class="header"><br>
+            <div class="logo"><a href="index.html"><img src="/static/img/logo.png" alt="Go to main" title="Go to main" width="50px"></a></div>
+            <div class="menum">
+                <a href="{% url 'index' %}">main</a>&emsp;
+                <a href="{% url 'products' %}">catalogue</a>&emsp;
+                <a href="{% url 'contacts' %}">contacts</a>
+            </div>
+        </div><br>
+        <div class="aom">Mail to&nbsp;us</div>
+        <div class="abt">
+            <form action=""><br>
+                <input type="text" class="ft" placeholder="Name" class="form"><br><br>
+                <input type="email" class="ft1" placeholder="email@yourdomain.com" class="form"><br><br>
+                <input type="text" class="ft" placeholder="subject" class="form"><br><br>
+                Genres or&nbsp;styles of&nbsp;music You like<br><br>
+                <textarea name="" id="" cols="30" rows="5" placeholder="Write here" class="ft"></textarea> <br>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div><br>
+        <div class="aom">About&nbsp;us</div>
+        <div class="abt">
+            <p>We&nbsp;love music and want to&nbsp;share it&nbsp;with You!</p>
+            <p>Our contacts</p>
+            <p>Mobile: +1&nbsp;234 5678&nbsp;910</p>
+            <p>Email: yo@aom.com</p>
+            <p>Adress: 3034&nbsp;E First St, Long Beach, CA&nbsp;90803, USA</p>
+            <p>See&nbsp;the map below:</p><br>
+        </div>
+        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13267.612408021734!2d-118.16540567359648!3d33.76316972554243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd31aae524e58b%3A0xb6cf5e4a8fe2e821!2zMzAzNCBFIEZpcnN0IFN0LCBMb25nIEJlYWNoLCBDQSA5MDgwMywg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1547807366920" width="100%" height="374px" frameborder="0" style="border: 0" allowfullscreen></iframe></p>
+        <div class="footer">
+            All rights reserved 2019&nbsp;&copy;
+        </div>
+    </div>
+</body>
+
+</html>
